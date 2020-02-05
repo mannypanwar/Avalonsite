@@ -96,6 +96,7 @@ body{
     font-size: 0.5rem;
   }
   .logo-text{
-    display: none;
+    font-size:2rem;
+    font-size: 0;
   }
 }
