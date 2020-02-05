@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+    background-color: #0f4c75;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.top{
+  background-color: #1b262c;
+  color: white;
+}
+.top-img{
+  width: 70%;
+  border-radius: 50%;
+}
+.title-text{
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.title-h{
+  font-size: 3rem;
+}
+
+.card-col{
+  padding: 5% 2%;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.black-section{
+  background-color: #1b262c;
+  color: #fff;
+
+}
+
+
+#footer .container-fluid{
+  padding: 0% 15% 7%;
+}
+
+.footer-ico{
+  margin: 15px 10px;
+  font-size: 2rem;
+}

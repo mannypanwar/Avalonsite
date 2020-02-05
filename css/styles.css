@@ -1,0 +1,95 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  padding: 0;
+}
+.colored-section{
+  background-color: #0f4c75;
+}
+.white-section{
+  background-color: #bbcfff;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+.download-btn{
+  margin: 3% 0;
+}
+
+
+.logo{
+  width: 10%;
+}
+.logo-text{
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-container{
+  padding-top: 7%;
+}
+.heading-container{
+  text-align: center;
+}
+.title-heading{
+  text-align: left;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.title-img{
+  max-width: 100%;
+}
+
+
+
+.test-img{
+
+}
+
+
+.cta-heading{
+  font-weight: 700;
+  font-size: 3rem;
+}
+/* footer */
+#footer{
+  color: #fff;
+}
+
+.footer-ico{
+  padding: 2%;
+  font-size: 2rem;
+}
+
+
+@media (max-width:990px) {
+
+  .logo{
+    width:10%;
+
+  }
+
+  .logo-text{
+    font-size: 1rem;
+  }
+  .title-heading{
+    text-align: center;
+    font-size: 2rem;
+  }
+.title-img{
+  margin-top:25px;
+}
+  .cta-heading{
+    font-size: 2rem;
+  }
+}
