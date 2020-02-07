@@ -69,7 +69,21 @@ h1{
 
 @media (max-width:990px) {
 h1{
-font-size:  2rem;
+font-size:  1.5rem;
+}
+h3{
+  font-size: 1rem;
+}
+.top-col .btn {
+  padding: 5%;
+  font-size: 1rem;
+}
+.card-body .btn {
+  padding: 1%;
+  font-size: 0.8rem;
+}
+.top-img{
+  width: 100%;
 }
   .cta-heading{
     font-size: 1rem;
@@ -80,8 +94,5 @@ font-size:  2rem;
   .form-heading{
     font-size: 1.5rem;
   }
-.politics-img{
-  width: 70%;
-  margin: 0;
-}
+
 }
