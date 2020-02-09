@@ -5,6 +5,10 @@ body{
   color: #fff;
 }
 
+.top-nav .container-fluid {
+  padding: 2% 10% 0;
+}
+
 .container-fluid{
   padding:7% 15%;
 }
@@ -41,6 +45,10 @@ h2{
 
 
 @media (max-width:990px) {
+
+  .top-nav .container-fluid {
+    padding: 2% 5% 0;
+  }
 h1{
   font-size: 2rem;
 }
