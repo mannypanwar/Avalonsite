@@ -15,7 +15,7 @@ h3{
   padding: 0 15% 5%;
 }
 .row{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .top{
   background-color: #1b262c;
@@ -31,16 +31,13 @@ h3{
 .politics-img{
   width: 35%;
   border-radius: 50%;
-  margin-top: 40px;
 }
 .title-text{
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
 }
-.top-col{
-  padding-bottom: 5%;
-}
+
 .title-h{
   font-size: 3rem;
 }
@@ -63,7 +60,9 @@ h3{
 }
 
 
-
+.cta-heading {
+  font-size: 3rem;
+}
 #footer .container-fluid{
   padding: 0 15% 7%;
 }
@@ -107,7 +106,7 @@ h3{
   padding:7% 10% 5%;
 }
   .cta-heading{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .cta .btn {
