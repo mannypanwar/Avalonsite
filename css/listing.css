@@ -74,11 +74,19 @@ h3{
 }
 
 @media (max-width:990px) {
+
 h1{
   font-size: 1.5rem;
 }
 .top-col h1{
 font-size:  1.2rem;
+}
+
+#top-title .container-fluid{
+  padding: 0 10% 5%;
+}
+.container-fluid{
+  padding: 5% 10%;
 }
 h3{
   font-size: 1rem;
