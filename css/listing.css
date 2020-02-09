@@ -19,7 +19,7 @@ background-color:  #1b262c;
 }
 
 #top-title .container-fluid{
-  padding: 5% 15% 5%;
+  padding: 2% 15% 5%;
 }
 .row{
   margin-top: 10%;
@@ -88,8 +88,12 @@ h1{
 font-size:  1.2rem;
 }
 
+.top-nav .container-fluid {
+  padding: 2% 5% 0;
+}
+
 #top-title .container-fluid{
-  padding: 5% 10% 5%;
+  padding: 2% 10% 5%;
 }
 .container-fluid{
   padding: 5% 10%;
