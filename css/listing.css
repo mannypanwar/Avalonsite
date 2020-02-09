@@ -5,7 +5,7 @@ body{
     color: #fff;
 }
 h1{
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3rem;
 }
 h3{
@@ -30,6 +30,7 @@ background-color:  #1b262c;
 }
 .top-col h1 {
   font-size: 1.5rem;
+  margin-top: 10px;
 }
 .top-img{
   width: 60%;
