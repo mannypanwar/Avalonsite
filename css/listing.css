@@ -8,8 +8,11 @@ h1{
   font-weight: 900;
   font-size: 3rem;
 }
+h3{
+  font-size: 1.5rem;
+}
 #top-title .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 0 15% 5%;
 }
 .row{
   margin-top: 15%;
@@ -18,8 +21,11 @@ h1{
   background-color: #1b262c;
   color: white;
 }
+.top-col h1 {
+  font-size: 1.5rem;
+}
 .top-img{
-  width: 70%;
+  width: 60%;
   border-radius: 50%;
 }
 .politics-img{
@@ -40,7 +46,7 @@ h1{
 }
 
 .card-col{
-  padding: 5% 2%;
+  padding: 4% 4%;
 }
 .container-fluid{
   padding: 7% 15%;
@@ -69,7 +75,10 @@ h1{
 
 @media (max-width:990px) {
 h1{
-font-size:  1.5rem;
+  font-size: 1.5rem;
+}
+.top-col h1{
+font-size:  1rem;
 }
 h3{
   font-size: 1rem;
