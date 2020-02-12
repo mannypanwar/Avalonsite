@@ -1,123 +1,139 @@
-body{
+body {
   text-align: center;
-    background-color: #0f4c75;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
+  background-color: #0f4c75;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
-h1{
+
+h1 {
   font-weight: 700;
   font-size: 3rem;
 }
-h3{
+
+h3 {
   font-size: 1.5rem;
 }
+
 .top-nav {
-background-color:  #1b262c;
+  background-color: #1b262c;
 }
+
 .top-nav .container-fluid {
   padding: 2% 10% 0;
 }
 
-#top-title .container-fluid{
+#top-title .container-fluid {
   padding: 2% 15% 5%;
 }
-.row{
+
+.row {
   margin-top: 10%;
 }
-.top{
+
+.top {
   background-color: #1b262c;
   color: white;
 }
+
 .top-col h1 {
   font-size: 1.5rem;
   margin-top: 10px;
 }
-.top-img{
+
+.top-img {
   width: 60%;
   border-radius: 50%;
 }
-.politics-img{
+
+.politics-img {
   width: 35%;
   border-radius: 50%;
 }
-.title-text{
+
+.title-text {
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-.title-h{
+.title-h {
   font-size: 3rem;
 }
 
-.card-col{
+.card-col {
   padding: 4% 4%;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 7% 15%;
 }
 
-.black-section{
+.black-section {
   background-color: #1b262c;
   color: #fff;
-
 }
 
-.card{
+.card {
   background-color: #1b262c;
 }
-
 
 .cta-heading {
   font-size: 3rem;
 }
-#footer .container-fluid{
+
+#footer .container-fluid {
   padding: 0 15% 7%;
 }
 
-.footer-ico{
+.footer-ico {
   margin: 15px 10px;
   font-size: 2rem;
 }
 
 @media (max-width:990px) {
+  h1 {
+    font-size: 1.7rem;
+  }
 
-h1{
-  font-size: 1.7rem;
-}
-.top-col h1{
-font-size:  1.2rem;
-}
+  .top-col h1 {
+    font-size: 1.2rem;
+  }
 
-.top-nav .container-fluid {
-  padding: 2% 5% 0;
-}
+  .top-nav .container-fluid {
+    padding: 2% 5% 0;
+  }
 
-#top-title .container-fluid{
-  padding: 2% 10% 5%;
-}
-.container-fluid{
-  padding: 5% 10%;
-}
-h3{
-  font-size: 1rem;
-}
-.top-col .btn {
-  padding: 5%;
-  font-size: 1rem;
-}
-.card-body .btn {
-  padding: 1%;
-  font-size: 0.8rem;
-}
-.top-img{
-  width: 100%;
-}
+  #top-title .container-fluid {
+    padding: 2% 10% 5%;
+  }
 
-.cta .container-fluid {
-  padding:7% 10% 5%;
-}
-  .cta-heading{
+  .container-fluid {
+    padding: 5% 10%;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .top-col .btn {
+    padding: 5%;
+    font-size: 1rem;
+  }
+
+  .card-body .btn {
+    padding: 1%;
+    font-size: 0.8rem;
+  }
+
+  .top-img {
+    width: 100%;
+  }
+
+  .cta .container-fluid {
+    padding: 7% 10% 5%;
+  }
+
+  .cta-heading {
     font-size: 1.5rem;
   }
 
@@ -125,12 +141,13 @@ h3{
     padding: 2% 4%;
     font-size: 1rem;
   }
-  }
-  .top-btn{
-    margin: 5% 0 15%;
-  }
-  .form-heading{
-    font-size: 1.5rem;
-  }
+}
 
+.top-btn {
+  margin: 5% 0 15%;
+}
+
+.form-heading {
+  font-size: 1.5rem;
+}
 }

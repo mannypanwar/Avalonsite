@@ -1,44 +1,52 @@
-body{
+body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
+.navbar {
   padding: 0;
 }
-.colored-section{
+
+.colored-section {
   background-color: #0f4c75;
 }
-.white-section{
+
+.white-section {
   background-color: #bbcfff;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 7% 15%;
 }
-.download-btn{
+
+.download-btn {
   margin: 3% 0;
 }
 
-
-.logo{
+.logo {
   width: 10%;
 }
-.logo-text{
+
+.logo-text {
   font-size: 2rem;
   text-align: left;
   font-family: 'Poiret One', cursive;
   font-weight: 700;
 }
-#title .container-fluid{
+
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
-.title-container{
+
+.title-container {
   padding-top: 7%;
 }
-.heading-container{
+
+.heading-container {
   text-align: center;
 }
-.title-heading{
+
+.title-heading {
   text-align: left;
   color: #fff;
   font-size: 3.5rem;
@@ -46,58 +54,56 @@ body{
   font-weight: 900;
 }
 
-.title-img{
+.title-img {
   max-width: 100%;
 }
 
+.test-img {}
 
-
-.test-img{
-
-}
-
-
-.cta-heading{
+.cta-heading {
   font-weight: 700;
   font-size: 3rem;
 }
+
 /* footer */
-#footer{
+#footer {
   color: #fff;
 }
 
-.footer-ico{
+.footer-ico {
   padding: 2%;
   font-size: 2rem;
 }
 
-
 @media (max-width:990px) {
-
-  .logo{
-    width:10%;
-
+  .logo {
+    width: 10%;
   }
 
-  .logo-text{
+  .logo-text {
     font-size: 1rem;
   }
-  .title-heading{
+
+  .title-heading {
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
   }
-.title-img{
-  margin-top:25px;
-}
-  .cta-heading{
+
+  .title-img {
+    margin-top: 25px;
+  }
+
+  .cta-heading {
     font-size: 1.5rem;
   }
-  .footer-text{
+
+  .footer-text {
     font-size: 0.5rem;
   }
-  .logo-text{
-    font-size:2rem;
+
+  .logo-text {
+    font-size: 2rem;
     font-size: 0;
   }
 }
