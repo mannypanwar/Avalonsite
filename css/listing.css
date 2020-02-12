@@ -106,6 +106,9 @@ h3 {
   #top-title .container-fluid {
     padding: 2% 10% 5%;
   }
+  .listing-p{
+    font-size: 0.8rem;
+  }
 
   .container-fluid {
     padding: 5% 10%;
