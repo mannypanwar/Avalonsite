@@ -91,7 +91,7 @@ body {
     .navbar {
       bottom: 0;
       width: 100vw;
-      height: 5rem;
+      height: 4rem;
       z-index: 2;
     }
     .navbar-brand {
@@ -102,9 +102,10 @@ body {
     }
     .nav-item {
       margin-top: 0;
+      font-size: 2rem;
     }
     .nav-link {
-      margin-left: 50px;
+      margin-left: 60px;
       padding: 0;
     }
   }
@@ -117,7 +118,7 @@ body {
   }
 
   #footer {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 
   /* all above code is for navbar */
