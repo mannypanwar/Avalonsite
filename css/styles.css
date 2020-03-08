@@ -1,18 +1,38 @@
 body {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #1b262c;
+}
+
+.navbar-nav {
+  list-style: none;
   padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.nav-item {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .colored-section {
   background-color: #0f4c75;
+  margin-left: 5rem;
 }
 
 .white-section {
   background-color: #bbcfff;
+  margin-left: 5rem;
 }
 
 .container-fluid {
@@ -21,17 +41,6 @@ body {
 
 .download-btn {
   margin: 3% 0;
-}
-
-.logo {
-  width: 10%;
-}
-
-.logo-text {
-  font-size: 2rem;
-  text-align: left;
-  font-family: 'Poiret One', cursive;
-  font-weight: 700;
 }
 
 #title .container-fluid {
@@ -58,7 +67,8 @@ body {
   max-width: 100%;
 }
 
-.test-img {}
+.test-img {
+}
 
 .cta-heading {
   font-weight: 700;
@@ -75,15 +85,42 @@ body {
   font-size: 2rem;
 }
 
-@media (max-width:990px) {
-  .logo {
-    width: 10%;
+@media (max-width: 990px) {
+  /* navbar */
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+      z-index: 2;
+    }
+    .navbar-brand {
+      display: none;
+    }
+    .navbar-nav {
+      flex-direction: row;
+    }
+    .nav-item {
+      margin-top: 0;
+    }
+    .nav-link {
+      margin-left: 50px;
+      padding: 0;
+    }
   }
 
-  .logo-text {
-    font-size: 1rem;
+  .colored-section {
+    margin-left: 0;
+  }
+  .white-section {
+    margin-left: 0;
   }
 
+  #footer {
+    margin-bottom: 5rem;
+  }
+
+  /* all above code is for navbar */
   .title-heading {
     text-align: center;
     font-size: 2rem;
