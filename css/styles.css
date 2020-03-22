@@ -90,6 +90,7 @@ body {
       width: 100vw;
       height: 4rem;
       z-index: 2;
+      justify-content: center;
     }
     .navbar-brand {
       display: none;
@@ -105,9 +106,13 @@ body {
       font-size: 2rem;
     }
     .nav-link {
-      margin-left: 65px;
-
       padding: 0;
+    }
+    .nav-home {
+      padding-right: 3rem;
+    }
+    .nav-list {
+      padding-left: 3rem;
     }
   }
 
