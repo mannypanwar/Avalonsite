@@ -217,6 +217,13 @@ h3 {
   }
 }
 
+.top,
+.list,
+.cta,
+.footer {
+  margin-left: 0;
+}
+
 #footer {
   margin-bottom: 4rem;
 }
