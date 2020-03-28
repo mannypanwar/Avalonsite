@@ -44,7 +44,7 @@ body {
 }
 
 #title .container-fluid {
-  padding: 7% 15% 7%;
+  padding: 5% 15% 7%;
 }
 
 .title-container {
@@ -135,10 +135,6 @@ body {
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-  }
-
-  .title-img {
-    margin-top: 25px;
   }
 
   .cta-heading {
