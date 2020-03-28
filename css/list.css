@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: #0f4c75;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
@@ -13,6 +13,37 @@ h1 {
 h3 {
   font-size: 1.5rem;
 }
+
+/* nabar  */
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #1b262c;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.nav-item {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.top,
+.list,
+.cta,
+.footer {
+  margin-left: 5rem;
+}
+/* navbar code above  */
 
 .top-nav {
   background-color: #1b262c;
@@ -90,11 +121,7 @@ h3 {
   font-size: 2rem;
 }
 
-
-
-
-
-@media (max-width:990px) {
+@media (max-width: 990px) {
   h1 {
     font-size: 1.7rem;
   }
@@ -110,7 +137,7 @@ h3 {
   #top-title .container-fluid {
     padding: 2% 10% 5%;
   }
-  .listing-p{
+  .listing-p {
     font-size: 0.8rem;
   }
 
@@ -157,4 +184,39 @@ h3 {
 .form-heading {
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 4rem;
+    z-index: 2;
+    justify-content: center;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .nav-home {
+    padding-right: 3rem;
+  }
+  .nav-list {
+    padding-left: 3rem;
+  }
+}
+
+#footer {
+  margin-bottom: 4rem;
 }
