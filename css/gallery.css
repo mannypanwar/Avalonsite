@@ -26,7 +26,9 @@ body {
 .nav-link {
   text-decoration: none;
 }
-
+.nav-link:active {
+  transform: translateY(-3px);
+}
 .top-nav,
 .cta,
 .footer {

@@ -24,7 +24,9 @@ body {
 .nav-link {
   text-decoration: none;
 }
-
+.nav-link:active {
+  transform: translateY(-3px);
+}
 .colored-section {
   background-color: #0f4c75;
   margin-left: 5rem;

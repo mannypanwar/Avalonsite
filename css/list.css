@@ -37,6 +37,11 @@ h3 {
 .nav-link {
   text-decoration: none;
 }
+
+.nav-link:active {
+  transform: translateY(-3px);
+}
+
 .top,
 .list,
 .cta,
