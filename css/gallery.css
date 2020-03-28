@@ -5,6 +5,34 @@ body {
   color: #fff;
 }
 
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #1b262c;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.nav-item {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.top-nav,
+.cta,
+.footer {
+  margin-left: 5rem;
+}
+
 .top-nav .container-fluid {
   padding: 2% 10% 0;
 }
@@ -60,5 +88,51 @@ h2 {
 
   h2 {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 4rem;
+    z-index: 2;
+    justify-content: center;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .nav-home {
+    padding-right: 3rem;
+  }
+  .nav-list {
+    padding-left: 3rem;
+  }
+
+  .heading-container {
+    text-align: center;
+  }
+  .colored-section {
+    margin-left: 0;
+  }
+  .white-section {
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-bottom: 4rem;
   }
 }
