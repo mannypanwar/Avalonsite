@@ -109,6 +109,10 @@ h3 {
   color: #fff;
 }
 
+.click-more {
+  font-size: 3rem;
+}
+
 .card {
   background-color: #1b262c;
 }
@@ -219,6 +223,9 @@ h3 {
   }
   .nav-list {
     padding-left: 3rem;
+  }
+  .click-more {
+    font-size: 2rem;
   }
 }
 

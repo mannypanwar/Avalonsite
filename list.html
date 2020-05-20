@@ -157,29 +157,64 @@
               class="fab fa-discord"> </i> Click here</a>
 
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
-          <img class=" top-img" src="images/avalon.webp" alt="">
-          <h1>Avalon Trading</h1>
-          <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalonstocktrading"><i
-              class="fab fa-telegram-plane"> </i> Click here</a>
 
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
-          <img class=" top-img" src="images/webflow.webp" alt="">
-          <h1>Avalon Webflow</h1>
-          <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalonwebflow"><i
-              class="fab fa-telegram-plane"> </i> Click here</a>
 
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
-          <img class=" top-img" src="images/film.webp" alt="">
-          <h1>Avalon Filmmaking/Animators</h1>
-          <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalon_filmmaking_animators"><i
-              class="fab fa-telegram-plane"> </i> Click here</a>
 
-        </div>
+
 
       </div>
+      <div id="appear" style="display: none;">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/coding.webp" alt="">
+            <h1>Avalon Coding</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/AvalonCoding"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/webdev.webp" alt="">
+            <h1>Avalon Webdev</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalonwebdev"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/webflow.webp" alt="">
+            <h1>Avalon Webflow</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalonwebflow"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/film.webp" alt="">
+            <h1>Avalon Filmmaking/Animators</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalon_filmmaking_animators"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/design.webp" alt="">
+            <h1>Avalon Design</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/AvalonDesign"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 top-col">
+            <img class=" top-img" src="images/avalon.webp" alt="">
+            <h1>Avalon Trading</h1>
+            <a class="btn btn-light btn-lg top-btn" type="button" href="https://t.me/avalonstocktrading"><i
+                class="fab fa-telegram-plane"> </i> Click here</a>
+
+          </div>
+
+
+        </div>
+      </div>
+      <a href="javascript:showhide('appear')">
+        <i class="fas fa-angle-down click-more"></i>
+      </a>
     </div>
 
   </section>
@@ -784,6 +819,14 @@
 
   <!-- sweetalert -->
   <script type="text/javascript">
+
+    function showhide(id) {
+      var e = document.getElementById(id);
+      e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+    }
+
+
+
     Swal.fire({
       title: 'Avalon Code is out now',
       text: 'Check it out',
